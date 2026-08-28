@@ -36,8 +36,7 @@ DeviceProcessEvents
 | where ProcessCommandLine has "tor-browser-windows" and ProcessCommandLine has "/S"
 | project Timestamp, DeviceName, AccountName, FileName, ProcessCommandLine
 
-
-<img width="1598" height="523" alt="Screenshot 2026-08-27 162628" src="https://github.com/user-attachments/assets/34e0e6b1-efa4-4556-824b-4bcb55bc4be8" />
+<img width="947" height="497" alt="image" src="https://github.com/user-attachments/assets/ecbb274c-b081-4408-a4a4-f9d7d169948b" />
 
 
 ---
